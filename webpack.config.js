@@ -2,6 +2,8 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 const mode =
   process.env.NODE_ENV === "production" ? "production" : "development";
@@ -34,15 +36,38 @@ module.exports = {
       },
       {
         test: /\.s[ac]ss$/i,
-        use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
+        use: [
+          MiniCssExtractPlugin.loader,
+          { loader: "css-loader", options: { url: false } },
+          {
+            loader: "sass-loader",
+            options: {
+              sourceMap: true,
+            },
+          },
+          "import-glob-loader",
+        ],
       },
       {
         test: /\.(png|jpe?g|gif|svg)$/i,
         use: [
           {
+            loader: "file-loader", // Or 'url-loader' for base64 encoding
+            options: {
+              name: "[path][name].[ext]", // Adjust filename format if needed
+              outputPath: "images", // Output directory for images
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        use: [
+          {
             loader: "file-loader",
             options: {
-              outputPath: "images",
+              name: "[path][name].[ext]",
+              outputPath: "fonts",
             },
           },
         ],
@@ -50,6 +75,7 @@ module.exports = {
     ],
   },
   plugins: [
+    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
       title: "Webpack Diploma",
@@ -59,6 +85,12 @@ module.exports = {
       filename: "style.css",
     }),
     new ForkTsCheckerWebpackPlugin(),
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: "public/images", to: "images", noErrorOnMissing: true },
+        { from: "public/fonts", to: "fonts", noErrorOnMissing: true },
+      ],
+    }),
   ],
   devServer: {
     historyApiFallback: true,
