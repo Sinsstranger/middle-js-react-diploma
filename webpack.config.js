@@ -18,10 +18,14 @@ module.exports = {
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".jsx"],
     alias: {
-      "@components": path.resolve(__dirname, "src/components"),
-      "@pages": path.resolve(__dirname, "src/pages"),
-      "@styles": path.resolve(__dirname, "src/styles"),
-      "@utils": path.resolve(__dirname, "src/utils"),
+      "@components": path.resolve(__dirname, "src", "components"),
+      "@hooks": path.resolve(__dirname, "src", "hooks"),
+      "@lang": path.resolve(__dirname, "src", "lang"),
+      "@layouts": path.resolve(__dirname, "src", "layouts"),
+      "@pages": path.resolve(__dirname, "src", "pages"),
+      "@styles": path.resolve(__dirname, "src", "styles"),
+      "@store": path.resolve(__dirname, "src", "store"),
+      "@utils": path.resolve(__dirname, "src", "utils"),
     },
   },
   module: {
@@ -33,6 +37,10 @@ module.exports = {
         options: {
           transpileOnly: true,
         },
+      },
+      {
+        test: /\.css$/i,
+        use: [MiniCssExtractPlugin.loader, "css-loader"],
       },
       {
         test: /\.s[ac]ss$/i,
@@ -78,7 +86,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
-      title: "Webpack Diploma",
+      title: "Portfolio",
       favicon: "./public/favicon.ico",
     }),
     new MiniCssExtractPlugin({
