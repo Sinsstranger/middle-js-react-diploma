@@ -1,9 +1,8 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./src/App";
-
+import "./src/i18n.ts";
 // Clear the existing HTML content
-// @ts-ignore
 document.body.innerHTML = '<div id="app"></div>';
 
 // Render your React component instead

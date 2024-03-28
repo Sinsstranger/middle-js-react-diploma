@@ -1,0 +1,151 @@
+{
+  "404": {
+    "title": "Page not found",
+    "description": "Sorry, but the page you are requesting does not exist."
+  },
+  "mainBanner": {
+    "hi": "Hi!",
+    "name": "Marat",
+    "position": "Web-Developer",
+    "downloadCV": "Download CV",
+    "textMe": "Text Me In Telegram"
+  },
+  "mainMenu": {
+    "main": "Mainpage",
+    "aboutMe": "About Me",
+    "portfolio": "Portfolio",
+    "experience": "Experience",
+    "career": "Career",
+    "recommendations": "Recommendations",
+    "contacts": "Contacts"
+  },
+  "experience": {
+    "advantages": {
+      "developer": {
+        "experienceTime": "5 years",
+        "experienceType": "Developer"
+      },
+      "inIt": {
+        "experienceTime": "10 years",
+        "experienceType": "In IT"
+      },
+      "freelancer": {
+        "experienceTime": "2 years",
+        "experienceType": "Freelancer"
+      }
+    },
+    "advantagesSub": {
+      "developer": {
+        "experiencePosition": "Web Developer",
+        "experienceType": "Front-end"
+      },
+      "inIt": {
+        "experiencePosition": "Set of Projects",
+        "experienceType": "JS/TS"
+      },
+      "freelancer": {
+        "experiencePosition": "Freelancer",
+        "experienceType": "SEO, ModX"
+      }
+    }
+  },
+  "projects": {
+    "title": "My projects",
+    "titleTag": "Portfolio",
+    "list": {
+      "api": {
+        "title": "API on NodeJs",
+        "caption": "API on NodeJs"
+      },
+      "ticTacToe": {
+        "title": "Tic-Tac-Toe game",
+        "caption": "Tic-Tac-Toe game on TypeScript"
+      },
+      "incomesExpensesBook": {
+        "title": "Incomes/Expenses book",
+        "caption": "Incomes/Expenses book on React"
+      },
+      "snakeGame": {
+        "title": "Snake game",
+        "caption": "Snake game on VanillaJS"
+      }
+    },
+    "tags": {
+      "online": "Online"
+    },
+    "moreOnGithub": "More Projects on Github"
+  },
+  "techStack": {
+    "title": "Tech Stack",
+    "titleTag": "Skills",
+    "list": {
+      "mainTitle": "Technologies that I use every day",
+      "subTitle": "Other technologies that I use"
+    }
+  },
+  "studyAndJob": {
+    "title": "Career",
+    "titleTag": "Career trajectory",
+    "tillNow": "Till now",
+    "career": {
+      "title": "My Jobs",
+      "fromYear": "2014",
+      "list": {
+        "prokma": {
+          "companyName": "\"Prokma-Telecom\" LTD",
+          "position": "System Administrator",
+          "caption": "Administration L2, L3 networks, Linux servers, includes Web",
+          "fromYear": "2014",
+          "toYear": "2017"
+        },
+        "skobeeff": {
+          "companyName": "\"Techbox\" LTD",
+          "position": "Senior Developer",
+          "caption": "Administration, Technical support of sites and sites development",
+          "fromYear": "2018",
+          "toYear": "2023"
+        },
+        "seonik": {
+          "companyName": "Seonik LTD",
+          "position": "Senior Developer",
+          "caption": "Administration, Technical support of sites and sites development",
+          "fromYear": "2023",
+          "toYear": "Now"
+        }
+      }
+    },
+    "study": {
+      "title": "My Education",
+      "fromYear": "2016",
+      "list": {
+        "geekbrains": {
+          "universityName": "Geekbrains",
+          "speciality": "Web-developer",
+          "description": "Online University of IT",
+          "fromYear": "2016",
+          "toYear": "2018"
+        },
+        "filimonov": {
+          "universityName": "Filimonov's Career",
+          "speciality": "TypeScript/React.js developer",
+          "description": "The training program is based on real projects of large IT companies and banks",
+          "fromYear": "2023",
+          "toYear": "2024"
+        },
+        "hexlet": {
+          "universityName": "Hexlet",
+          "speciality": "Fullstack JavaScript Development",
+          "description": "The best programming school according to the version of Habr users",
+          "fromYear": "2022",
+          "toYear": "Now"
+        }
+      }
+    }
+  },
+  "contacts": {
+    "title": "Text to the mail or chat!",
+    "titleTag": "Contacts",
+    "mail": "E-Mail",
+    "toTop": "To Top"
+  }
+}

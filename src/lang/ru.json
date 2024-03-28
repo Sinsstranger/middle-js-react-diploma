@@ -1,0 +1,151 @@
+{
+  "404": {
+    "title": "Страница не найдена",
+    "description": "Извините, но страница, которую вы запрашиваете, не существует."
+  },
+  "mainBanner": {
+    "hi": "Привет!",
+    "name": "Марат",
+    "position": "Веб-разработчик",
+    "downloadCV": "Скачать резюме",
+    "textMe": "Написать в Телеграм"
+  },
+  "mainMenu": {
+    "main": "Главная",
+    "aboutMe": "Обо мне",
+    "portfolio": "Портфолио",
+    "experience": "Опыт",
+    "career": "Карьера",
+    "recommendations": "Рекомендации",
+    "contacts": "Контакты"
+  },
+  "experience": {
+    "advantages": {
+      "developer": {
+        "experienceTime": "5 лет",
+        "experienceType": "Разработчик"
+      },
+      "inIt": {
+        "experienceTime": "10 лет",
+        "experienceType": "В ИТ сфере"
+      },
+      "freelancer": {
+        "experienceTime": "2 года",
+        "experienceType": "Фрилансер"
+      }
+    },
+    "advantagesSub": {
+      "developer": {
+        "experiencePosition": "Веб-разработчик",
+        "experienceType": "Front-end"
+      },
+      "inIt": {
+        "experiencePosition": "Десятки проектов",
+        "experienceType": "JS/TS"
+      },
+      "freelancer": {
+        "experiencePosition": "Фрилансер",
+        "experienceType": "SEO, ModX"
+      }
+    }
+  },
+  "projects": {
+    "title": "Мои проекты",
+    "titleTag": "Портфолио",
+    "list": {
+      "api": {
+        "title": "API на NodeJs",
+        "caption": "API на NodeJs"
+      },
+      "ticTacToe": {
+        "title": "Игра \"Крестики-нолики\"",
+        "caption": "Игра \"Крестики-нолики\" на TypeScript"
+      },
+      "incomesExpensesBook": {
+        "title": "Книга учета доходов и расходов",
+        "caption": "Книга учета доходов и расходов на React"
+      },
+      "snakeGame": {
+        "title": "Игра \"Змейка\"",
+        "caption": "Игра \"Змейка\" на чистом JavaScript"
+      }
+    },
+    "tags": {
+      "online": "Онлайн"
+    },
+    "moreOnGithub": "Больше проектов на GitНub"
+  },
+  "techStack": {
+    "title": "Основные технологии",
+    "titleTag": "Навыки",
+    "list": {
+      "mainTitle": "Технологии, которыми я пользуюсь ежедневно",
+      "subTitle": "Другие технологии, с которыми я работаю"
+    }
+  },
+  "studyAndJob": {
+    "title": "Карьера",
+    "titleTag": "Траектория развития",
+    "tillNow": "Настоящее время",
+    "career": {
+      "title": "Мои работы",
+      "fromYear": "2014",
+      "list": {
+        "prokma": {
+          "companyName": "НПАО \"Прокма-Телеком\"",
+          "position": "Системный администратор",
+          "caption": "Администрирование L2, L3 сетей, Linux серверов, в том числе Web",
+          "fromYear": "2014",
+          "toYear": "2017"
+        },
+        "skobeeff": {
+          "companyName": "АО \"Техбокс\"",
+          "position": "Ведущий программист",
+          "caption": "Администрирование, разработка и техподдержка сайтов",
+          "fromYear": "2018",
+          "toYear": "2023"
+        },
+        "seonik": {
+          "companyName": "АО \"Сеоник\"",
+          "position": "Ведущий программист",
+          "caption": "Администрирование, разработка и техподдержка сайтов",
+          "fromYear": "2023",
+          "toYear": "Настоящее время"
+        }
+      }
+    },
+    "study": {
+      "title": "Моя учеба",
+      "fromYear": "2016",
+      "list": {
+        "geekbrains": {
+          "universityName": "Geekbrains",
+          "speciality": "Web-разработчик",
+          "description": "Online University of IT",
+          "fromYear": "2016",
+          "toYear": "2018"
+        },
+        "filimonov": {
+          "universityName": "Филимонов Карьера",
+          "speciality": "TypeScript/React.js разработчик",
+          "description": "Программа обучения основана на реальных проектах крупных ИТ-компаний и банков",
+          "fromYear": "2023",
+          "toYear": "2024"
+        },
+        "hexlet": {
+          "universityName": "Hexlet",
+          "speciality": "Fullstack JavaScript Development",
+          "fromYear": "2022",
+          "description": "Лучшая школа программирования по версии пользователей Хабра",
+          "toYear": "Now"
+        }
+      }
+    }
+  },
+  "contacts": {
+    "title": "Пишите на почту или в чат!",
+    "titleTag": "Контакты",
+    "mail": "Почта",
+    "toTop": "Наверх"
+  }
+}
