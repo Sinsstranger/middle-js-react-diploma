@@ -5,7 +5,7 @@ import Footer from "@components/Footer";
 import Portfolio from "@layouts/Portfolio";
 import TechStack from "@layouts/TechStack";
 import Career from "@layouts/Career";
-import Reviews from "@layouts/Reviews";
+// import Reviews from "@layouts/Reviews";
 import Contacts from "@layouts/Contacts";
 
 function Home() {

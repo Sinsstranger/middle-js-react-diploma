@@ -21,7 +21,7 @@ i18n
   .init({
     resources,
     // lng: "ru",
-    fallbackLng: "en",
+    fallbackLng: ["en", "ru"],
     interpolation: {
       escapeValue: false, // react already safes from xss
     },

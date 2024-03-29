@@ -61,9 +61,9 @@ const MainBanner: React.ForwardRefExoticComponent<
             <img src="/images/MainPhoto-round.png" alt="#" />
           </div>
           <div className="main-banner__contacts">
-            {/*<Link to="#" className="main-banner__link">*/}
-            {/*  {t("mainBanner.downloadCV")}*/}
-            {/*</Link>*/}
+            {/* <Link to="#" className="main-banner__link"> */}
+            {/*  {t("mainBanner.downloadCV")} */}
+            {/* </Link> */}
             <Link
               to="https://t.me/sinstranger"
               target="_blank"

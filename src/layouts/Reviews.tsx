@@ -1,4 +1,4 @@
-import React, { MutableRefObject, useRef } from "react";
+import React, { useRef } from "react";
 import { useTranslation } from "react-i18next";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -44,12 +44,12 @@ const Reviews: React.FC = () => {
             type="button"
             className="button reviews__button btn-prev"
             onClick={next}
-           />
+          />
           <button
             type="button"
             className="button reviews__button btn-next"
             onClick={previous}
-           />
+          />
         </div>
       </div>
       <Slider
