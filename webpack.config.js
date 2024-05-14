@@ -86,7 +86,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
-      title: "Portfolio",
+      title: "Барашкин Марат Валерьевич | Web-Developer",
       favicon: "./public/favicon.ico",
     }),
     new MiniCssExtractPlugin({
