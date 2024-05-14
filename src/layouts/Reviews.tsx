@@ -101,7 +101,7 @@ const Reviews: React.FC = () => {
                 Руководитель команды разработчиков
               </div>
               <a
-                href="/recomendation-letters/Sviridov_Letter.pdf"
+                href="/recommendation-letters/Sviridov_Letter.pdf"
                 className="author__link"
               >
                 Скачать отзыв полностью
@@ -131,7 +131,7 @@ const Reviews: React.FC = () => {
                 Fullstack Software Engineer, Преподаватель-исследователь
               </div>
               <a
-                href="/recomendation-letters/Filimonov-letter.pdf"
+                href="/recommendation-letters/Filimonov-letter.pdf"
                 className="author__link"
               >
                 Скачать отзыв полностью

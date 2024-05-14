@@ -97,6 +97,11 @@ module.exports = {
       patterns: [
         { from: "public/images", to: "images", noErrorOnMissing: true },
         { from: "public/fonts", to: "fonts", noErrorOnMissing: true },
+        {
+          from: "public/recommendation-letters",
+          to: "recommendation-letters",
+          noErrorOnMissing: true,
+        },
       ],
     }),
   ],
