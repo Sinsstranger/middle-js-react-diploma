@@ -59,6 +59,7 @@ const Reviews: React.FC = () => {
           sliderReviewsRef = slider;
         }}
       >
+        {/* <div className="reviews__item review">
         <div className="reviews__item review">
           <div className="review__quote">
             <img src="images/icons/Quotes.svg" alt="#" />
@@ -78,6 +79,33 @@ const Reviews: React.FC = () => {
               <div className="author__position">
                 Руководитель команды разработчиков
               </div>
+            </div>
+          </div>
+        </div>*/}
+        <div className="reviews__item review">
+          <div className="review__quote">
+            <img src="images/icons/Quotes.svg" alt="#" />
+          </div>
+          <div className="review__description">
+            Я рекомендую Марата Валерьевича для любой роли не ниже Middle в
+            области Web-разработки и уверен, что его навыки и опытбудут ценным
+            вкладом в любую компанию.
+          </div>
+          <div className="author">
+            <div className="author__image">
+              <img src="/images/sviridov.jpg" alt="#" />
+            </div>
+            <div className="author__caption">
+              <div className="author__title">Александр Свиридов</div>
+              <div className="author__position">
+                Руководитель команды разработчиков
+              </div>
+              <a
+                href="/recomendation-letters/Sviridov_Letter.pdf"
+                className="author__link"
+              >
+                Скачать отзыв полностью
+              </a>
             </div>
           </div>
         </div>
@@ -86,42 +114,28 @@ const Reviews: React.FC = () => {
             <img src="images/icons/Quotes.svg" alt="#" />
           </div>
           <div className="review__description">
-            Рекомендую веб-разработчика как одного из лучших. Он работал над
-            моим веб-приложением, все было сделано в срок, качество кода
-            отличное. В проекте используются следующие технологии и языки
-            программирования: JavaScript, TypeScript и Node.js
+            Марат Валерьевич завершил программу индивидуального обучения по
+            Web-Разработке и проявил высокий уровень дисциплины и
+            ответственности, выполняя все задания вовремя.
           </div>
           <div className="author">
             <div className="author__image">
-              <img src="images/icons/Template_images/author.png" alt="#" />
+              <img
+                src="https://filimonov-career.ru/img/author/nextImageExportOptimizer/author-400-opt-640.WEBP"
+                alt="#"
+              />
             </div>
             <div className="author__caption">
-              <div className="author__title">Роман Иванович</div>
+              <div className="author__title">Игорь Филлимонов</div>
               <div className="author__position">
-                Руководитель команды разработчиков
+                Fullstack Software Engineer, Преподаватель-исследователь
               </div>
-            </div>
-          </div>
-        </div>
-        <div className="reviews__item review">
-          <div className="review__quote">
-            <img src="images/icons/Quotes.svg" alt="#" />
-          </div>
-          <div className="review__description">
-            Рекомендую веб-разработчика как одного из лучших. Он работал над
-            моим веб-приложением, все было сделано в срок, качество кода
-            отличное. В проекте используются следующие технологии и языки
-            программирования: JavaScript, TypeScript и Node.js
-          </div>
-          <div className="author">
-            <div className="author__image">
-              <img src="images/icons/Template_images/author.png" alt="#" />
-            </div>
-            <div className="author__caption">
-              <div className="author__title">Роман Иванович</div>
-              <div className="author__position">
-                Руководитель команды разработчиков
-              </div>
+              <a
+                href="/recomendation-letters/Filimonov-letter.pdf"
+                className="author__link"
+              >
+                Скачать отзыв полностью
+              </a>
             </div>
           </div>
         </div>
