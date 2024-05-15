@@ -30,7 +30,7 @@ const initialState: IProjectState = {
     {
       githubUrl: "https://github.com/Sinsstranger/Tic-Tac-Toe_Game",
       image: "images/tic-tac-toe-game.png",
-      sandboxUrl: "https://codesandbox.io/p/devbox/dazzling-silence-pkw98m",
+      sandboxUrl: "https://middle-js-coursework-1.vercel.app",
       title: "Игра Крестики-Нолики",
       description: "",
       translationKeyTitle: "projects.list.ticTacToe.title",
