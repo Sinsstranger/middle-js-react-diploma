@@ -20,7 +20,7 @@ const Career: React.FC = () => {
           <header className="column__header">
             <h3 className="column__title">{t("studyAndJob.career.title")}</h3>
             <p className="column__subtitle">
-              2016 · {t("studyAndJob.tillNow")}
+              2014 · {t("studyAndJob.tillNow")}
             </p>
           </header>
           <div className="column__list">
@@ -56,7 +56,7 @@ const Career: React.FC = () => {
           <header className="column__header">
             <h3 className="column__title">{t("studyAndJob.study.title")}</h3>
             <p className="column__subtitle">
-              2014 · {t("studyAndJob.tillNow")}
+              2016 · {t("studyAndJob.tillNow")}
             </p>
           </header>
           <div className="column__list">
