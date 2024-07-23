@@ -102,6 +102,11 @@ module.exports = {
           to: "recommendation-letters",
           noErrorOnMissing: true,
         },
+        {
+          from: "public/self-employed-data",
+          to: "self-employed-data",
+          noErrorOnMissing: true,
+        },
       ],
     }),
   ],

@@ -8,6 +8,7 @@ import Career from "@layouts/Career";
 // import Reviews from "@layouts/Reviews";
 import Contacts from "@layouts/Contacts";
 import Reviews from "@layouts/Reviews.tsx";
+import SelfEmployed from "@layouts/SelfEmployed.tsx";
 
 function Home() {
   const toTopRef: React.RefObject<HTMLDivElement> =
@@ -23,6 +24,7 @@ function Home() {
         <TechStack />
         <Career />
         <Reviews />
+        <SelfEmployed />
         <Contacts toTopRef={toTopRef} />
       </div>
       <Footer />
