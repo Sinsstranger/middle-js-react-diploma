@@ -272,7 +272,7 @@
     "memfs": "^3.5.3",
     "merge-stream": "^2.0.0",
     "merge2": "^1.4.1",
-    "micromatch": "^4.0.5",
+    "micromatch": "^4.0.8",
     "mime-db": "^1.52.0",
     "mime-types": "^2.1.35",
     "minimatch": "^9.0.3",
