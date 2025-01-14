@@ -81,7 +81,7 @@ const Reviews: React.FC = () => {
               </div>
             </div>
           </div>
-        </div>*/}
+        </div> */}
         <div className="reviews__item review">
           <div className="review__quote">
             <img src="images/icons/Quotes.svg" alt="#" />

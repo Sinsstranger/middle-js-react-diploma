@@ -110,8 +110,15 @@
           "position": "Senior Developer",
           "caption": "Administration, Technical support of sites and sites development",
           "fromYear": "2023",
-          "toYear": "Now"
-        }
+          "toYear": "2023"
+        },
+	      "turbo-intellect": {
+		      "companyName": "\"Turbo-Intellect\" LTD",
+		      "position": "Software Engineer",
+		      "caption": "Design and development of equipment for turbochargers",
+		      "fromYear": "2023",
+		      "toYear": "Now"
+	      }
       }
     },
     "study": {
