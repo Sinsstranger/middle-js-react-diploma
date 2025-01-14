@@ -121,7 +121,7 @@ const Reviews: React.FC = () => {
           <div className="author">
             <div className="author__image">
               <img
-                src="https://filimonov-career.ru/img/author/nextImageExportOptimizer/author-400-opt-640.WEBP"
+                src="https://filimonov.school/img/author/nextImageExportOptimizer/author-400-opt-256.WEBP"
                 alt="#"
               />
             </div>
