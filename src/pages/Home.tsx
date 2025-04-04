@@ -24,7 +24,7 @@ function Home() {
         <TechStack />
         <Career />
         <Reviews />
-        <SelfEmployed />
+        {/*<SelfEmployed />*/}
         <Contacts toTopRef={toTopRef} />
       </div>
       <Footer />
