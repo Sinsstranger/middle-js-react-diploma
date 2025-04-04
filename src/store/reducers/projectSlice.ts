@@ -50,7 +50,7 @@ const initialState: IProjectState = {
     {
       githubUrl: "https://github.com/Sinsstranger/snake_game",
       image: "images/snake_game.png",
-      sandboxUrl: null,
+      sandboxUrl: "https://sinsstranger.github.io/snake_game/",
       title: 'Игра "Змейка"',
       description: "",
       translationKeyTitle: "projects.list.snakeGame.title",

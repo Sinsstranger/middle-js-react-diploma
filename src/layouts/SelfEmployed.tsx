@@ -27,7 +27,7 @@ export default function SelfEmployed(): ReactElement {
         <div className="self-employed__requisites">
           {/* <img src="self-employed-data/bank_account_details.webp" alt="#" /> */}
           <Link
-            to="self-employed-data/bank_account_details.pdf"
+            to="https://t.me/sinstranger"
             target="_blank"
             className="main-banner__button"
           >
